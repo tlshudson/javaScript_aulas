@@ -1,0 +1,8 @@
+ Aula sobre estrutura de Dados 
+
+-> Dados podem ser considerado qualquer coisa: 7, $, #, 123131.21313, "abacaxi", "abacate123"...
+-> ~Estrutura de dados ≠ dados~.
+-> Estrutura de Dados organiza, estrutura os dados. Visa organizar/administrar dados.
+
+Exemplos de estrutura de dados: Fila de banco, pilha de livros pra ler, chamada da escola
+->FIFO = First in First Out, primeiro a entrar primeiro a sair. 
