@@ -8,6 +8,9 @@ isAtivo = 1;
 console.log(!!isAtivo);
 
 //explicação do padrão do valor de variáveis que é sempre verdadeiro
+<<<<<<< HEAD
+//utilização do ! para inverter o valor uma única vez, já o !! inverte o valor duas vezes, retornando ao seu valor original;n
+=======
 //utilização do ! para inverter o valor uma única vez, já o !! inverte o valor duas vezes, retornando ao seu valor original;
 
 
@@ -29,3 +32,4 @@ console.log(!!('' || null || 0 || ' ')); //retorna true pois um dos elementos do
 
 let nome = 'Hudson';
 console.log(nome || 'Intedeterminado');
+>>>>>>> 94cebcd4058da50d5d614c6e891d58d0a106694c
