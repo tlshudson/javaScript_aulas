@@ -1,7 +1,7 @@
 //Aula sobre operadores relacionais: Os valores sempre retornarão em Verdadeiro OU Falso, tomar cuidado com os tipo a serem comparados/relacionados.
 
 console.log("Exemplo 01)", '1' == 1); //igual
-;console.log("Exemplo 02)", '1' === 1); //estritamente igual
+console.log("Exemplo 02)", '1' === 1); //estritamente igual
 console.log("Exemplo 03)", '3' != 3); //diferente
 console.log("Exemplo 04)", '3' !== 3); //estritamente diferente
 
