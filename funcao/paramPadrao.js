@@ -25,4 +25,4 @@ function funcao3(a = 1, b = 1, c = 1) {
     return a + b + c;   
 }
 
-console.log(funcao3(), funcao3(2, 3), funcao3(3, 3, 3))
+console.log(funcao3(), funcao3(2, 3), funcao3(3, 3, 3));
