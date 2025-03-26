@@ -14,6 +14,7 @@ console.log(notasBaixas);
 
 //com callback
 
+//notasBaixas recebe a função filter que cria um novo array e e faz uma chamada callback para uma função que irá tratar os dados do array, neste caso, irá retornar todos os elementos menores que 7
 notasBaixas = notas.filter(function (nota){
     return nota < 7;
 })
