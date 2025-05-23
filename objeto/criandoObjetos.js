@@ -17,6 +17,8 @@ function Produto(nome, preco, desconto) {
   };
 }
 let p1 = new Produto('Caneta', 2, 0.10);
+console.log(p1.getPreco());
+
 let p2 = new Produto('Carro', 2, 0.20);
 console.log(p2.getPreco(), p1.getPreco());
 
@@ -27,3 +29,9 @@ function criarFuncionario(nome, salariobase, faltas) {
   }
 }
 
+const carro = Object.create(null);
+carro.nome = 'Mobi';
+console.log(carro);
+
+const fromJson = JSON.parse("Teste JSON");
+console.log(fromJson.info);
