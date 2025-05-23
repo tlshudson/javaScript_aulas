@@ -18,5 +18,12 @@ function Produto(nome, preco, desconto) {
 }
 let p1 = new Produto('Caneta', 2, 0.10);
 let p2 = new Produto('Carro', 2, 0.20);
-console.log(p2.getPreco());
+console.log(p2.getPreco(), p1.getPreco());
+
+//utilizando função factory
+function criarFuncionario(nome, salariobase, faltas) {
+  return{
+    
+  }
+}
 
