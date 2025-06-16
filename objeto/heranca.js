@@ -21,6 +21,7 @@ Teacher.prototype = Object.create(Person.prototype);
 Teacher.prototype.constructor = Teacher;
 
 Teacher.prototype.greeting = function () {
-    console.log("Hello, my name is: " + this.name.first + " and I teach" + this.subject + ".");
-    
+    console.log("Hello, my name is: " + this.name.first + " and I teach " + this.subject + ".");
 }
+const prof = new Teacher("João", "Silva", 40, "masculino", ["matemática", "xadrez"], "Matemática");
+prof.greeting();
