@@ -7,12 +7,11 @@ const produtos = [
 
 console.log(
   produtos.filter(function (p) {
-    function filtroProduto(p) {
-      if ((p.fragil = true && p.preco > 100)) {
-        console.log("Produtos frágeis e baratos:", p);
-      } else {
-        console.log("Produtos não encontrados!");
-      }
-    }
+    return false;
   })
 );
+
+const caro = produto => produto.preco >= 500;
+const fragil  = produto => produto.fragil;
+
+console.log(produtos.filter(caro).filter(fragil));
